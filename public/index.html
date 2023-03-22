@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>WebVisualizer</title>
+    </head>
+    <body>
+        <h1>JSON</h1>
+        <form class="" action="/json" method="get">
+            <table>
+                <tr><td><label for="url">URI: </label></td><td><input type="text" name="url" id="json_url" value="" size="50"><br /></td></tr>
+                <tr><td><label for="recLevel">RecLevel: </label></td><td><input type="number" name="recLevel" id="json_recLevel" size="5" ><br /></td></tr>
+                <tr><td><label for="maxFiles">MaxFiles: </label></td><td><input type="number" name="maxFiles" id="json_maxFiles" size="5"><br /></td></tr>
+                <tr><td colspan="2"><input type="submit" name="get_json" value="Get JSON"></td></tr>
+            </table>
+        </form>
+        <h1>ZIP</h1>
+        <form class="" action="/zip" method="get">
+            <table>
+                <tr><td><label for="url">URI: </label></td><td><input type="text" name="url" id="url" value="" size="50"><br /></td></tr>
+                <tr><td colspan="2"><input type="submit" name="get_zip" value="Get ZIP"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
