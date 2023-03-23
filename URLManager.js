@@ -1,7 +1,7 @@
 function URLManager() {
 }
 
-URLManager.getFullUrl = function (parentUrl, url){
+URLManager.getAbsoluteUrl = function (url, parentUrl){
   ...
 }
 
